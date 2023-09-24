@@ -1,0 +1,55 @@
+/*  
+    Css Variables used in whole project 
+    To maintain consistent and easily modifiable styling 
+    Across multiple components and elements.
+*/
+
+:root {
+
+    /* Font Family */
+    --main-font: 'Poppins', Arial, sans-serif;
+    --heading-font: 'Roboto', sans-serif;
+
+    /* Colors Used */
+
+    --color-primary: hsl(111, 11%, 49%);
+    --color-black: hsl(0, 0%, 5%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-background: hsl(48, 29%, 97%);
+
+    --color-primary-25: hsl(100, 10%, 94%);
+    --color-primary-50: #d1d9cf;
+    --color-primary-100: #b2bfaf;
+    --color-primary-200: #a2b39f;
+    --color-primary-300: #93a690;
+    --color-primary-400: #839980;
+    --color-primary-600: #5a6d57;
+    --color-primary-700: #404e3e;
+    --color-primary-750: #343e32;
+    --color-primary-800: #272f25;
+    --color-primary-900: #0d100c;
+
+    --color-neutral-50: hsl(0, 0%, 87%);
+    --color-neutral-100: hsl(0, 0%, 93%);
+    --color-neutral-200: hsl(0, 0%, 98%);
+    --color-neutral-300: #cbcbcb;
+    --color-neutral-400: #adadad;
+    --color-neutral-500: #868686;
+    --color-neutral-600: #606060;
+    --color-neutral-700: #404040;
+    --color-neutral-800: #202020;
+    --color-neutral-900: #0c0c0c;
+
+    --color-state-warning-bg: #f7e4c9;
+    --color-state-warning-light: #ecbb77;
+    --color-state-warning: #e09126;
+
+    --color-state-error-bg: #fff2f2;
+    --color-state-error-light: #ed2e2e;
+    --color-state-error: #c30000;
+
+    --color-state-success-bg: #f3fdfa;
+    --color-state-success-light: #00ba88;
+    --color-state-success: #00956d;
+
+}

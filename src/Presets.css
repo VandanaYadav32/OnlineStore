@@ -1,0 +1,70 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--main-font);
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b {
+    font-family: var(--heading-font), sans-serif;
+}
+
+p {
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    /* 61px */
+    font-size: 3.812rem;
+}
+
+h2 {
+    /* 49px */
+    font-size: 3.062rem;
+}
+
+h3 {
+    /* 39px */
+    font-size: 2.438rem;
+}
+
+h4 {
+    /* 31px */
+    font-size: 1.938rem;
+}
+
+h5 {
+    /* 25px */
+    font-size: 1.562rem;
+}
+
+h6 {
+    /* 20px */
+    font-size: 1.250rem;
+}
+
+p {
+    /* 16px */
+    font-size: 1rem;
+}
+
+small {
+    /* 13px */
+    font-size: 0.812rem;
+}
